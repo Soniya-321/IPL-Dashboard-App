@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #000;
+  font-family: bree serif;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.competingTeamLogo {
+  height: 100px;
+  width: 90px;
+}
+.separator {
+  font-size: 2px;
+  width: 100%;
+}
+.competingTeam {
+  font-size: 15px;
+}
+.date {
+  font-size: 20px;
+}
+.venue .result {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .competingTeam {
+    font-size: 20px;
+  }
+  .competingTeamLogo {
+    align-self: center;
+    margin-left: 4rem;
+    height: 130px;
+    width: 110px;
+  }
+  .separator {
+    display: none;
+  }
+  .first-container div {
+    width: 200px;
+    text-align: start;
+  }
+  .second-container {
+    text-align: end;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .competingTeamLogo {
+    margin-left: 8rem;
+    height: 150px;
+    width: 130px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .latest-match-container {
+    padding: 0px 20px;
+    margin: 10px;
+  }
+  .competingTeamLogo {
+    margin-left: 12rem;
+    height: 180px;
+    width: 160px;
+  }
+  .first-container {
+    margin: 0;
+    padding: 0;
+  }
+  .second-container {
+     margin: 0;
+    padding: 0;
+  }
+}

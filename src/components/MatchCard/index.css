@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.match-card-container {
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: bree serif;
+  margin: 5px;
+  color: #fff;
+  padding: 10px;
+  list-style-type: none;
+  width: 130px;
+}
+.match-img {
+  height: 100px;
+  width: 90px;
+}
+.match-heading {
+  font-size: 15px;
+  text-align: center;
+}
+.match-result {
+  font-size: 13px;
+  text-align: center;
+}
+.won-status {
+  color: Green;
+}
+.lost-status {
+  color: red;
+}
+
+@media screen and (min-width: 576px) {
+  .match-card-container {
+    width: 200px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .match-card-container {
+    width: 215px;
+    margin-right: 20px;
+  }
+}

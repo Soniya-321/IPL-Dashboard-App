@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-matches-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  background-size: cover;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.team-banner-img {
+  height: 30vh;
+  width: 100%;
+}
+.latest-matches-heading {
+  color: #fff;
+  font-size: 15px;
+  font-family: bree serif;
+}
+.matches-container {
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (min-width: 1200px) {
+  .team-matches-container {
+    padding: 20px;
+  }
+  .team-banner-img {
+    height: 50vh;
+    width: 100%;
+  }
+  .latest-matches-heading {
+    font-size: 25px;
+  }
+}

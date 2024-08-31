@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.team-container {
+  background-color: #475569;
+  border: solid 1px #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 5;
+  cursor: pointer;
+  outline: none;
+}
+.team-img {
+  height: 40px;
+  width: 40px;
+}
+.team-name {
+  font-size: 10px;
+  color: #ffffff;
+  margin-left: 10px;
+  text-align: center;
+}
+.team-link-item {
+  text-decoration: none;
+}
+@media screen and (max-width: 576px) {
+  .team-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .team-container {
+    width: 200px;
+    height: 100px;
+  }
+  .team-img {
+    height: 80px;
+    width: 80px;
+  }
+  .team-name {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .team-container {
+    width: 300px;
+    height: 150px;
+  }
+  .team-img {
+    height: 100px;
+    width: 100px;
+  }
+  .team-name {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .team-container {
+    width: 370px;
+    height: 180px;
+  }
+  .team-img {
+    height: 150px;
+    width: 150px;
+  }
+  .team-name {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-container {
+    width: 450px;
+    height: 200px;
+  }
+  .team-img {
+    height: 150px;
+    width: 150px;
+  }
+  .team-name {
+    font-size: 30px;
+  }
+}
